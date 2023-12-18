@@ -1,0 +1,412 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CRM B2B PT. TACO</title>
+		<link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" href="https://crm.taco.co.id/lite/assets/images/logo_taco_square.png" type="image/x-icon"/>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="https://crm.taco.co.id/lite/assets/vendors/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="https://crm.taco.co.id/lite/assets/vendors/css/icons/fontawesome/styles.min.css" rel="stylesheet" type="text/css">
+	<link href="https://crm.taco.co.id/lite/assets/template/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="https://crm.taco.co.id/lite/assets/template/css/core.min.css" rel="stylesheet" type="text/css">
+	<link href="https://crm.taco.co.id/lite/assets/template/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="https://crm.taco.co.id/lite/assets/template/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<link href="https://crm.taco.co.id/lite/assets/fontawesome/css/fontawesome.css" rel="stylesheet" type="text/css">
+	<link href="https://crm.taco.co.id/lite/assets/fontawesome/css/fontawesome.css" rel="stylesheet" type="text/css">
+	<link href="https://crm.taco.co.id/lite/assets/fontawesome/css/brands.css" rel="stylesheet" type="text/css">
+	<link href="https://crm.taco.co.id/lite/assets/fontawesome/css/solid.css" rel="stylesheet" type="text/css">
+	<link href="https://crm.taco.co.id/lite/assets/fontawesome/css/regular.css" rel="stylesheet" type="text/css">
+	<link href="https://crm.taco.co.id/lite/assets/fontawesome/css/all.css" rel="stylesheet" type="text/css">
+
+	<!-- Core JS files -->
+	<script src="https://crm.taco.co.id/lite/assets/vendors/js/plugins/loaders/pace.min.js"></script>
+	<script src="https://crm.taco.co.id/lite/assets/vendors/js/core/libraries/jquery.min.js"></script>
+	<script src="https://crm.taco.co.id/lite/assets/vendors/js/core/libraries/bootstrap.min.js"></script>
+	<script src="https://crm.taco.co.id/lite/assets/vendors/js/plugins/loaders/blockui.min.js"></script>
+	<script src="https://crm.taco.co.id/lite/assets/template/js/modal.js"></script>
+	<!-- /core JS files -->
+</head>
+<body>
+<style>
+  .custom-navbar{
+    background-color: #212121;
+    padding: 20px 0px;
+  }
+</style>
+<!-- Main navbar -->
+<div class="navbar custom-navbar">
+  <div class="navbar-header" style="padding: 0px 30px;">
+          <a class="navbar-brand" href="https://crm.taco.co.id/lite/home"><img src="https://crm.taco.co.id/lite/assets/images/Logo_CRM Lite_White.png" alt="" style="height: 30px;"></a>
+       
+
+    <ul class="nav navbar-nav visible-xs-block">
+      <li><a data-toggle="collapse" data-target="#navbar-mobile" style="color: white;"><i class="icon-tree5"></i></a></li>
+      <li><a class="sidebar-mobile-main-toggle" style="color: white;"><i class="icon-paragraph-justify3"></i></a></li>
+    </ul>
+  </div>
+
+  <div class="navbar-collapse collapse" id="navbar-mobile">
+    <ul class="nav navbar-nav">
+      <li>
+        <!--a class="sidebar-control sidebar-main-toggle hidden-xs"><i class="icon-paragraph-justify3"></i></a-->
+      </li>
+    </ul>
+
+    <!--p class="navbar-text"><span class="label bg-success">Online</span></p-->
+
+    <ul class="nav navbar-nav navbar-right">
+    <li class="dropdown">
+       <ul class="dropdown-menu menu-append" style="height:200px; width:50%;overflow:hidden; overflow-y:scroll"></ul>
+      </li>
+
+      <li class="dropdown dropdown-user">
+        <a class="dropdown-toggle" data-toggle="dropdown">
+        
+          <span style="color: white;">Rangga</span>
+          <i class="caret" style="color:white"></i>
+        </a>
+
+        <ul class="dropdown-menu dropdown-menu-right">
+          <li><a href="https://crm.taco.co.id/lite/Login/logout"><i class="icon-switch2"></i> Logout</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- /main navbar -->
+
+<!-- Page container -->
+<div class="page-container">
+
+  <!-- Page content -->
+  <div class="page-content">
+<!-- Theme JS files -->
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/plugins/forms/styling/switchery.min.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/plugins/ui/moment/moment.min.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/plugins/pickers/daterangepicker.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/plugins/tables/datatables/datatables.min.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/plugins/tables/datatables/extensions/buttons.min.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/plugins/forms/selects/select2.min.js"></script>
+
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/template/js/app.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/plugins/tables/datatables/extensions/fixed_columns.min.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/demo_pages/datatables_extension_colvis.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/demo_pages/dashboard.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/demo_pages/datatables_extension_fixed_columns.js"></script>
+
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/demo_pages/form_bootstrap_select.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/demo_pages/user_pages_profile.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/demo_pages/datatables_extension_colvis.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/demo_pages/components_modals.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/demo_pages/jqueryui_forms.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/demo_pages/form_controls_extended.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/demo_pages/form_inputs.js"></script>
+
+
+
+<!-- Theme JS files -->
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/plugins/forms/selects/bootstrap_select.min.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/plugins/forms/styling/uniform.min.js"></script>
+
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/core/libraries/jquery_ui/interactions.min.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/core/libraries/jquery_ui/widgets.min.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/core/libraries/jquery_ui/globalize/globalize.js"></script>
+<script src="https://crm.taco.co.id/lite/assets/vendors/js/plugins/forms/inputs/formatter.min.js"></script>
+
+<link href="https://crm.taco.co.id/lite/assets/fontawesome/css/fontawesome.css" rel="stylesheet" type="text/css">
+<link href="https://crm.taco.co.id/lite/assets/fontawesome/css/brands.css" rel="stylesheet" type="text/css">
+<link href="https://crm.taco.co.id/lite/assets/fontawesome/css/solid.css" rel="stylesheet" type="text/css">
+<link href="https://crm.taco.co.id/lite/assets/fontawesome/css/regular.css" rel="stylesheet" type="text/css">
+<link href="https://crm.taco.co.id/lite/assets/fontawesome/css/all.css" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+<style>
+	.btn-new {
+		border-radius: 10px;
+		width:100%;
+		height:100%;
+		background-color:#FFFFFF;
+		transition: 0.5s;
+	}
+	
+	.btn-new:hover {
+		background-color: #d3d3d3;
+		box-shadow: 0 8px 6px -6px #173052;
+	}
+
+	.caption {
+		font-family: 'Roboto';
+		font-weight: bold;
+		font-size: 13px;
+        text-align: center;
+        color: #2a2a2a!important;
+        /* color: white!important; */
+}
+
+	@media only screen and (min-width: 992px) {
+		.menu-holder{
+			padding : 0px 100px;
+		}
+	}
+
+    .thumbnail i{
+        color:#ff7135!important;
+        /* color:#f05223!important; */
+    }
+</style>
+
+<div class="content-wrapper">
+
+	<div class="content">
+
+				<div class="row menu-holder">
+			<div class="panel-body">
+
+			
+				<div class="row">
+					<div class=" col-12   col-md-3 col-sm-6 " >
+						<div class="thumbnail btn-new">
+							<a href="https://crm.taco.co.id/lite/home/account_menu">
+								<div style="text-align:center; padding:15px;">
+									<i class="far fa-building fa-6x" ></i>
+								</div>
+								<div class="caption">
+									<p>Account & Contact</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class=" col-12   col-md-3 col-sm-6 ">
+						<div class="thumbnail btn-new">
+							<a href="https://crm.taco.co.id/lite/engagement">
+								<div style="text-align:center; padding:15px;">
+									<i class="fa fa-user-group fa-6x" ></i>
+								</div>
+								<div class="caption">
+									<p>Engagement</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-12   col-md-3 col-sm-6">
+						<div class="thumbnail btn-new">
+							
+							<a href="https://crm.taco.co.id/lite/menu_req_cat">
+								<div style="text-align:center; padding:15px;">
+									<i class="fa fa-cube fa-6x"></i>
+								</div>
+								<div class="caption" >
+									<p>Request Item</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					
+					
+					<div class="col-12 col-md-3 col-sm-6">
+						<div class="thumbnail btn-new">
+							<a href="https://crm.taco.co.id/lite/mevent/listevent_v2">
+								
+								<div style="text-align:center; padding:15px;">
+									<i class="far fa-calendar-check fa-6x"></i>
+								</div>
+								<div class="caption" >
+									<p>Event</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				                            <div class="col-12 col-md-3 col-sm-6">
+                            <div class="thumbnail btn-new">
+                                <a href="https://crm.taco.co.id/lite/menu_project/v2">
+                                    
+                                    <div style="text-align:center; padding:15px;">
+                                        <i class="fa fa-handshake fa-6x" ></i>
+                                    </div>
+                                    <div class="caption" >
+                                        <p>Project</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+				    
+
+					<div class="col-12   col-md-3 col-sm-6">
+						<div class="thumbnail btn-new">
+							<a href="https://crm.taco.co.id/lite/mreport/report">
+								<div style="text-align:center; padding:15px;">
+									<i class="far fa-clipboard fa-6x" ></i>
+								</div>
+								<div class="caption" >
+									<p>Report</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-12   col-md-3 col-sm-6">
+						<div class="thumbnail btn-new">
+							<a href="https://crm.taco.co.id/lite/mreport/reportproject">
+								<div style="text-align:center; padding:15px;">
+									<i class="fa fa-file-contract fa-6x" ></i>
+								</div>
+								<div class="caption" >
+									<p>Report Project</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-12   col-md-3 col-sm-6" style="display: none;">
+						<div class="thumbnail btn-new">
+							<a href="https://crm.taco.co.id/lite/Dashboard_dynamic">
+								<div style="text-align:center; padding:15px;">
+									<i class="fa-solid fa-square-poll-vertical fa-6x"></i>
+								</div>
+								<div class="caption" >
+									<p>Dashboard</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-12   col-md-3 col-sm-6">
+						<div class="thumbnail btn-new">
+							<a href="https://crm.taco.co.id/lite/Complain">
+								<div style="text-align:center; padding:15px;">
+									<i class="fa-solid fa-bullhorn fa-6x"></i>
+								</div>
+								<div class="caption" >
+									<p>Complain</p>
+								</div>
+							</a>
+						</div>
+					</div>
+
+				     <!-- its set to privilege admin and taro approver id (which manually hardcoded on contstants) -->
+						<div class="col-12   col-md-3 col-sm-6">
+							<div class="thumbnail btn-new">
+								<a href="https://crm.taco.co.id/lite/taro">
+									<div style="text-align:center; padding:15px;">
+										<i class="fa fa-layer-group fa-6x" ></i>
+									</div>
+									<div class="caption" >
+										<p>CRM TARO</p>
+									</div>
+								</a>
+							</div>
+						</div>
+                    
+					 <!-- its set to privilege admin and taro approver id (which manually hardcoded on contstants) -->
+						<div class="col-12   col-md-3 col-sm-6">
+							<div class="thumbnail btn-new">
+								<a href="https://crm.taco.co.id/lite/halotaco/menu">
+									<div style="text-align:center; padding:15px;">
+										<i class="fa fa-headphones fa-6x" ></i>
+									</div>
+									<div class="caption" >
+										<p>HALO TACO</p>
+									</div>
+								</a>
+							</div>
+						</div>
+                    
+
+					 <!-- change this when completed-->
+                        <div class="col-12   col-md-3 col-sm-6">
+                            <div class="thumbnail btn-new">
+                                <a
+                                    href="https://crm.taco.co.id/lite/menu_setting">
+                                    <!-- <img src=""
+                                        alt="Nature" style="width:50%"> -->
+                                    <div style="text-align:center; padding:15px;">
+                                        <i class="fa-solid fa-cog fa-6x" style="color:#A44C9C;"></i>
+                                    </div>
+                                    <div class="caption" style="color:#A44C9C; text-align:center;">
+                                        <p>SETTING</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+										 <!-- change this when completed-->
+                        <div class="col-12   col-md-3 col-sm-6">
+                            <div class="thumbnail btn-new">
+                                <a
+                                    href="https://crm.taco.co.id/lite/Dashboard_mail_blast">
+                                    <div style="text-align:center; padding:15px;">
+                                        <i class="fa-solid fa-envelope-open-text fa-6x" style="color:#FF0000;"></i>
+                                    </div>
+                                    <div class="caption" style="color:#FF0000; text-align:center;">
+                                        <p>Email Blast</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+					                </div>
+            			</div>
+		</div>
+
+					<!-- Footer -->
+					<div class="footer text-muted">
+						&copy; 2023. <a href="http://www.taco.co.id" target="_blank">PT.TACO</a>
+					</div>
+					<!-- /footer -->
+
+				</div>
+				<!-- /content area -->
+
+			</div>
+			<!-- /main content -->
+
+		</div>
+		<!-- /page content -->
+
+	</div>
+	<!-- /page container -->
+	<script>
+$(document).ready(function()
+{
+
+	function load_unseen_notification(view = '')
+ {
+  $.ajax({
+   url:"https://crm.taco.co.id/lite/Home/notifikasi",
+   method:"POST",
+   data:{view:view},
+   dataType:"json",
+   success:function(data)
+   {
+    $('.menu-append').html(data.notification);
+    if(data.unseen_notification > 0)
+    {
+     $('.count').html(data.unseen_notification);
+    }
+   }
+  });
+}
+ 
+ load_unseen_notification();
+
+ $(document).on('click', '.dropdown-toggle', function(){
+  $('.count').html('');
+  load_unseen_notification('yes');
+ });
+ 
+ setInterval(function(){ 
+  load_unseen_notification();; 
+ }, 5000);
+
+
+})
+
+</script>
+</body>
+</html>
