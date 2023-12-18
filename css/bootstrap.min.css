@@ -37,6 +37,7 @@
 	scroll-behavior:smooth
 }
 }
+
 body {
 	margin:0;
 	font-family:"Heebo",sans-serif;
@@ -44,9 +45,10 @@ body {
 	font-weight:400;
 	line-height:1.5;
 	color:#666565;
-	background-color:#0b2853;
+	background-color:white;
 	-webkit-text-size-adjust:100%;
-	-webkit-tap-highlight-color:rgba(0,0,0,0)
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	height:100px;
 }
 hr {
 	margin:1rem 0;
@@ -488,7 +490,7 @@ progress {
 }
 @media (min-width: 1400px) {
 	.container,.container-sm,.container-md,.container-lg,.container-xl,.container-xxl {
-	max-width:1320px
+	max-width:2500px
 }
 }
 .row {

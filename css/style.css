@@ -137,7 +137,7 @@ margin-left:4px;}
 
 .date-time{
 margin-top:10px;
-margin-right:5px;}   
+margin-right:25px;}   
 
 .date{border:solid 1px black;
 margin:10px;}
@@ -292,9 +292,9 @@ border-color:#EFFDF5;}
     transition: .5s;
 }
 
-.cat-item:hover {
+.cat-item:hover {transform: scale(1.09);
     border-color: rgba(0, 0, 0, 0.08);
-    background-color: #d3d3d3;
+    background-color: white;
     box-shadow: 0 8px 6px -6px #173052;
 }
 
