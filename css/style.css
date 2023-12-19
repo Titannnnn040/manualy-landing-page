@@ -75,6 +75,14 @@
 
 
 /*** Navbar ***/
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Adjust the z-index as needed */
+    background-color: #ffffff; /* Adjust the background color as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better visibility */
+}
 
 .navbar .dropdown-toggle::after {
     border: none;
