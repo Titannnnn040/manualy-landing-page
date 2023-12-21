@@ -142,17 +142,37 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <a class="cat-item rounded p-4" href="http://inno-room.com:8092/" target="_blank">
-                            <i class="fa fa-3x fa-sharp fa-solid fa-users text-primary mb-4"></i>
+                            <i class="fa fa-3x fa-sharp fa-solid fa-box text-primary mb-4"></i>
                             <h6 class="mb-3">Inno-Box</h6>
                         </a>
                     </div> 
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="request2">
                             <a class="cat-item rounded p-4">
-                                <i class="fa fa-3x fa-sharp fa-solid fa-users text-primary mb-4"></i>
+                                <i class="fa fa-3x fa-solid fa-flask-vial text-primary mb-4"></i>
                                 <h6 class="mb-3">IP & LAB</h6>
                             </a>
                         </div> 
+                        <div class="sub-item1">                                    
+                            <a class="cat-item rounded p-4" href="#" target="_blank">
+                                <i class="fa fa-3x fa-sharp fa-solid fa-dna text-primary mb-4"></i>
+                                <h6 class="mb-3">Admin Logistic</h6>
+                            </a>
+                        </div>
+                            
+                        <div class="sub-item2">                                    
+                            <a class="cat-item rounded p-4" href="#" target="_blank">
+                                <i class="fa fa-3x fa-sharp fa-solid fa-headset text-primary mb-4"></i>
+                                <h6 class="mb-3">CR</h6>
+                            </a>
+                        </div>          
+                        
+                        <div class="sub-item3">                                    
+                            <a class="cat-item rounded p-4" href="#" target="_blank">
+                                <i class="fa fa-3x fa-sharp fa-solid fa-map-marked-alt text-primary mb-4"></i>
+                                <h6 class="mb-3">IP</h6>
+                            </a>
+                        </div>   
                         <div class="sub-item4" style="display: none;">                                    
                             <a class="cat-item rounded p-4" href="#" target="_blank">
                                 <i class="fa fa-3x fa-sharp fa-solid fa-dna text-primary mb-4"></i>
@@ -161,7 +181,7 @@
                         </div>
                         <div class="sub-item5" style="display: none;">                                    
                             <a class="cat-item rounded p-4" href="#" target="_blank">
-                                <i class="fa fa-3x fa-sharp fa-solid fa-headset text-primary mb-4"></i>
+                                <i class="fa fa-3x fa-solid fa-house-circle-check text-primary mb-4"></i>
                                 <h6 class="mb-3">Home Service</h6>
                             </a>
                         </div>          
@@ -173,41 +193,18 @@
                         </div>
                         <div class="sub-item7" style="display: none;">                                    
                             <a class="cat-item rounded p-4" href="#" target="_blank">
-                                <i class="fa fa-3x fa-sharp fa-solid fa-map-marked-alt text-primary mb-4"></i>
-                                <h6 class="mb-3">Nutrigenme</h6>
+                                <i class="fa fa-3x fas fa-syringe text-primary mb-4"></i>
+                                <h6 class="mb-3">Spotmas</h6>
                             </a>
                         </div>     
+                        <div class="sub-item8"style="display:none;" data-wow-delay="0.3s">
+                            <a class="cat-item rounded p-4" href="http://inno-room.com:8092/" target="_blank">
+                                <i class="fa fa-3x fa-sharp fa-solid fa-sun text-primary mb-4"></i>
+                                <h6 class="mb-3">Omega-Sinarmas</h6>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="request1">
-                             <a class="cat-item rounded p-4">
-                                 <i class="fa fa-3x fa-sharp fa-solid fa-users text-primary mb-4"></i>
-                                 <h6 class="mb-3">Request Sample</h6>
-                             </a>
-                        </div> 
- 
-                                 <div class="sub-item1" style="display: none;">                                    
-                                     <a class="cat-item rounded p-4" href="#" target="_blank">
-                                         <i class="fa fa-3x fa-sharp fa-solid fa-dna text-primary mb-4"></i>
-                                         <h6 class="mb-3">Admin Logistic</h6>
-                                     </a>
-                                 </div>
-                                     
-                                 <div class="sub-item2" style="display: none;">                                    
-                                     <a class="cat-item rounded p-4" href="#" target="_blank">
-                                         <i class="fa fa-3x fa-sharp fa-solid fa-headset text-primary mb-4"></i>
-                                         <h6 class="mb-3">CR</h6>
-                                     </a>
-                                 </div>          
-                                 
-                                 <div class="sub-item3" style="display: none;">                                    
-                                     <a class="cat-item rounded p-4" href="#" target="_blank">
-                                         <i class="fa fa-3x fa-sharp fa-solid fa-map-marked-alt text-primary mb-4"></i>
-                                         <h6 class="mb-3">IP</h6>
-                                     </a>
-                                 </div>                                                                                          
-                     </div>
-                   
+                
 
                     
                 </div>
@@ -234,25 +231,15 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script>
-        $(document).ready(function () {
-
-            $(".request1").on("click", function(){
-                //toogle 
-                $(".request1").show('slow');
-                $(".sub-item1").toggle('slow');
-                $(".sub-item2").toggle('slow');
-                $(".sub-item3").toggle('slow');
-            });
-
-        });
-    </script> 
       <script>
         $(document).ready(function () {
 
             $(".request2").on("click", function(){
                 //toogle 
                 $(".request2").show('slow');
+                $(".sub-item1").toggle('slow');
+                $(".sub-item2").toggle('slow');
+                $(".sub-item3").toggle('slow');
                 $(".sub-item4").toggle('slow');
                 $(".sub-item5").toggle('slow');
                 $(".sub-item6").toggle('slow');

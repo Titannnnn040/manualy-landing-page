@@ -46,7 +46,7 @@ body {
 	font-weight:400;
 	line-height:1.5;
 	color:#666565;
-	background-color:rgb(255, 255, 255);
+	background-color:rgb(255, 0, 0);
 	-webkit-text-size-adjust:100%;
 	-webkit-tap-highlight-color:rgba(0,0,0,0);
 	height:100px;
@@ -495,7 +495,7 @@ progress {
 }}
 @media (min-width:2500px){.copyright{padding:500px;}
 }
-.row {
+.row { 
 	--bs-gutter-x: 1.5rem;
 	--bs-gutter-y: 0;
 	display:flex;
