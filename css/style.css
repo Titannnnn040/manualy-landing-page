@@ -9,16 +9,17 @@
       display:block;
     }
 
+    
     .sub-item1 {
-      display:block;
-      position:absolute;
+      display:grid;
+      position:relative;
       top: 0;
       left: 100%;
       z-index: 1000;
       float: left;
       width:351px;
-      margin-top:0;
-      margin-left:24px; /* Add margin between sub-items */
+      margin-top:-155px;
+      margin-left:25px; /* Add margin between sub-items */
       font-size: 1rem;
       color: #212529;
       text-align: left;
@@ -26,17 +27,16 @@
       background-color: #fff;
       background-clip: padding-box;
       border-radius: 0.25rem;}
-
     .sub-item2 {
-        display:block;
-        position:absolute;
+        display:grid;
+        position:relative;
         top: 0;
         left: 100%;
         z-index: 1000;
         float: left;
         min-width: 351px;
-        margin-top:0;
-        margin-left:399px; /* Add margin between sub-items */
+        margin-top:-155px;
+        margin-left:400px; /* Add margin between sub-items */
         font-size: 1rem;
         color: #212529;
         text-align: left;
@@ -44,17 +44,84 @@
         background-color: #fff;
         background-clip: padding-box;
         border-radius: 0.25rem;}
-
     .sub-item3 {
-        display:block;
-        position:absolute;
+        display:grid;
+        position:relative;
         top: 0;
         left: 100%;
         z-index: 1000;
         float: left;
         min-width: 351px;
-        margin-top:0;
-        margin-left:773px; /* Add margin between sub-items */
+        margin-top:-157px;
+        margin-left:770px; /* Add margin between sub-items */
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border-radius: 0.25rem;}
+    .sub-item4 {
+        display:grid;
+        position:relative;
+        top: 0;
+        left: 100%;
+        z-index: 1000;
+        float: left;
+        min-width: 351px;
+        margin-top:23px;
+        margin-left:-350px; /* Add margin between sub-items */
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border-radius: 0.25rem;}
+    .sub-item5 {
+        display:grid;
+        position:relative;
+        top: 0;
+        left: 100%;
+        z-index: 1000;
+        float: left;
+        min-width: 351px;
+        margin-top:23px;
+        margin-left:-725px; /* Add margin between sub-items */
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border-radius: 0.25rem;}
+    .sub-item6 {
+        display:grid;
+        position:relative;
+        top: 0;
+        left: 100%;
+        z-index: 1000;
+        float: left;
+        min-width: 351px;
+        margin-top:23px;
+        margin-left:-1100px; /* Add margin between sub-items */
+        font-size: 1rem;
+        color: #212529;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border-radius: 0.25rem;}
+    .sub-item7 {
+        display:grid;
+        position:relative;
+        top: 0;
+        left: 100%;
+        z-index: 1000;
+        float: left;
+        min-width: 351px;
+        margin-top:23px;
+        margin-left:-1475px; /* Add margin between sub-items */
         font-size: 1rem;
         color: #212529;
         text-align: left;
@@ -63,14 +130,22 @@
         background-clip: padding-box;
         border-radius: 0.25rem;}
 
-        .kat-item.active .sub-item1 {
-            display: flex;}
 
-        .kat-item.active .sub-item2 {
+.kat-item.active .sub-item1 {
+        display: flex;}
+.kat-item.active .sub-item2 {
+        display: flex;}
+.kat-item.active .sub-item3 {
+        display: flex;}
+.kat-item.active .sub-item4 {
+        display: flex;}
+.kat-item.active .sub-item5 {
+        display: flex;}
+.kat-item.active .sub-item6 {
+        display: flex;}
+        .kat-item.active .sub-item7 {
             display: flex;}
-
-        .kat-item.active .sub-item3 {
-            display: flex;}
+            
 
 .back-to-top {
     position: fixed;
@@ -360,13 +435,15 @@ border-color:#EFFDF5;}
 
 
 /*** Category ***/
-.cat-item {
+.cat-item {opacity:90%;
+    position: relative;
     background-color:#fff;
     display: block;
     box-shadow: 0 0 20px rgba(0, 0, 0, .08);
     border: 1px solid transparent;
     transition: .5s;
 }
+
 
 .cat-item:hover {transform: scale(1.09);
     border-color: rgba(0, 0, 0, 0.08);
