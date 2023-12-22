@@ -149,8 +149,13 @@
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="request2">
                             <a class="cat-item rounded p-4">
-                                <i class="fa fa-3x fa-solid fa-flask-vial text-primary mb-4"></i>
-                                <h6 class="mb-3">IP & LAB</h6>
+                                
+                                <i class="icon1 fa fa-3x fa-solid fa-flask-vial text-primary mb-4"></i>
+                                
+                                <i class="icon2 fa fa-3x fa-solid fa-dna text-primary mb-4"style="display:none;"></i>
+
+                                <h6 class="hsix1 mb-3">Request Sample</h6>
+                                <h6 class="hsix2 mb-3"style="display:none;">IP & LAB</h6>
                             </a>
                         </div> 
                         <div class="sub-item1">                                    
@@ -228,9 +233,26 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!--Change icon-->
+<script>
+ $(document).ready(function () {
+
+$(".request2").on("click", function(){
+    //toogle 
+    $(".request2").show('slow');
+    $(".icon1").toggle('slow');
+    $(".icon2").toggle('slow');
+    $(".hsix1").toggle('slow');
+    $(".hsix2").toggle('slow');
+});
+
+});
+</script>
+
       <script>
         $(document).ready(function () {
 
