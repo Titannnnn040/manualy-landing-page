@@ -4,11 +4,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title>kalgen-portal.innolab.co.id</title>
+    <title>kalgen portal</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
     <!-- Favicon -->
+    <script src="https://kit.fontawesome.com/cd0809b7d1.js" crossorigin="anonymous"></script>
     <link rel="icon" href="img/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +20,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="css/hamburgers.css">
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
@@ -103,15 +105,24 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <a class="cat-item rounded p-4" href="https://innobox.innolab.com/" target="_blank">
+                            
                             <i class="fa fa-3x fa-sharp fa-solid fa-box text-primary mb-4"></i>
                             <h6 class="mb-3">Inno-Box</h6>
                         </a>
                     </div> 
 
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+
                         <div class="request1">
+
                             <a class="cat-item rounded p-4">
-                                <i class="icon1 fa fa-3x fa-solid fa-flask-vial text-primary mb-4"></i>
+                                <i class="icon1 fa fa-3x fa-solid fa-flask-vial text-primary mb-4"></i> 
+                                <div class="nav-bar">
+                                    <button class="humburger1">  
+                                        <div class="bar">
+                                        </div>
+                                    </button>
+                                </div>                             
                                 <h6 class="hsix2 mb-3">IP & LAB</h6>
                             </a>
                         </div> 
@@ -150,8 +161,15 @@
 
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="request2">
-                            <a class="cat-item rounded p-4">                                
+                            <a class="cat-item rounded p-4">                             
                                 <i class="icon2 fa fa-3x fa-solid fa-vial text-primary mb-4"></i>
+                                <div class="nav-bar">
+                                    <button class="humburger2">
+                                       
+                                        <div class="bar">
+                                        </div>
+                                    </button>
+                                </div>   
                                 <h6 class="hsix1 mb-3">Request Sample</h6>
                             </a>
                         </div> 
@@ -201,8 +219,7 @@
     <script src="js/main.js"></script>
     <!--Change icon-->
 
-
-      <script>
+<script>
 //date-time
          function updateClock() {
              var now = new Date();
@@ -241,8 +258,8 @@
                     
          // Initial call to display the clock when the page loads
          updateClock();
-
-
+</script>
+<script>
 //IP & LAB Dropdown
         $(document).ready(function () {
 
@@ -257,7 +274,8 @@
             });
 
         });
-
+</script>
+<script>
 //Request Sample dropdown
         $(document).ready(function () {
 
@@ -270,7 +288,38 @@
             });
 
         });
-    </script> 
+</script> 
+
+
+
+<script> 
+// Script for the first hamburger menu
+const menuBtn1 = document.querySelector(".request1");
+const menuList1 = document.querySelector(".humburger1");
+
+menuBtn1.addEventListener("click", function () {
+  menuBtn1.classList.toggle("is-active");
+  menuList1.classList.toggle("is-active");
+});
+
+menuList1.addEventListener("click", () => {
+  menuList1.classList.toggle("is-active");
+});
+
+// Script for the second hamburger menu
+const menuBtn2 = document.querySelector(".request2");
+const menuList2 = document.querySelector(".humburger2");
+
+menuBtn2.addEventListener("click", function () {
+  menuBtn2.classList.toggle("is-active");
+  menuList2.classList.toggle("is-active");
+});
+
+menuList2.addEventListener("click", () => {
+  menuList2.classList.toggle("is-active");
+});
+
+    </script>
  
 </body>
 
