@@ -465,8 +465,9 @@ border-color:#EFFDF5;}
     border-right: none;
 }
 
-.copyright{padding-top:35px;
+.copyright{
     text-align:center;
+
 }
 
 .copyright a{color:#74b71b;
