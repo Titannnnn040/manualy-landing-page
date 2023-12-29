@@ -113,7 +113,6 @@
                     </div> 
 
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-
                         <div class="request1">
 
                             <a class="cat-item rounded p-4">
@@ -162,15 +161,16 @@
 
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="request2">
-                            <a class="cat-item rounded p-4">                             
-                                <i class="icon2 fa fa-3x fa-solid fa-vial text-primary mb-4"></i>
+
+                            <a class="cat-item rounded p-4">
+                                <i class="icon1 fa fa-3x fa-solid fa-vial text-primary mb-4"></i> 
                                 <div class="nav-bar">
-                                    <button class="humburger2">
+                                    <button class="humburger2">  
                                         <div class="bar">
                                         </div>
                                     </button>
-                                </div>   
-                                <h6 class="hsix1 mb-3">Request Sample</h6>
+                                </div>                             
+                                <h6 class="hsix2 mb-3">Request Sample</h6>
                             </a>
                         </div> 
                     </div>
@@ -308,6 +308,8 @@ menuList1.addEventListener("click", () => {
   menuList1.classList.toggle("is-active");
 });
 
+
+
 // Script for the second hamburger menu
 const menuBtn2 = document.querySelector(".request2");
 const menuList2 = document.querySelector(".humburger2");
@@ -320,9 +322,37 @@ menuBtn2.addEventListener("click", function () {
 menuList2.addEventListener("click", () => {
   menuList2.classList.toggle("is-active");
 });
+</script>
 
-    </script>
- 
+ <script>
+    // Script for the first hamburger menu
+const menuBtn3 = document.querySelector(".humburger1");
+const menuList3 = document.querySelector(".bar");
+
+menuBtn3.addEventListener("click", function () {
+  menuBtn3.classList.toggle("is-active");
+  menuList3.classList.toggle("is-active");
+});
+
+menuList3.addEventListener("click", () => {
+  menuList3.classList.toggle("is-active");
+});
+
+
+
+// Script for the second hamburger menu
+const menuBtn4 = document.querySelector(".humburger2");
+const menuList4 = document.querySelector(".bar");
+
+menuBtn4.addEventListener("click", function () {
+  menuBtn4.classList.toggle("is-active");
+  menuList4.classList.toggle("is-active");
+});
+
+menuList4.addEventListener("click", () => {
+  menuList4.classList.toggle("is-active");
+});
+</script>
 </body>
 
 </html>
