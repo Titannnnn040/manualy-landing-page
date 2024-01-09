@@ -58,6 +58,7 @@ body {
 	max-width:540px
 }
 .navbar img{
+	margin-left:-10px;
 	width: 33px;
 }
 }
