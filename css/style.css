@@ -462,11 +462,11 @@ border-color:#EFFDF5;}
 }
 
 .copyright{
-    text-align:center;
-
+    font-size: 15px !importan;
 }
 
 .copyright a{color:#74b71b;
+    font-size: 15px;
 }
 
 .nav-bar {
